@@ -59,8 +59,16 @@ h3 {
 }
 
 main {
-  gap: 80px;
-  margin-top: 40px;
+  margin-block: 40px;
+  row-gap: 80px;
+
+  grid-template-columns: 1.5fr 1fr;
+
+  display: grid;
+  grid-template-areas:
+    "featured featured"
+    "weekly weekly"
+    "ai aside";
 }
 
 .content-tag {
