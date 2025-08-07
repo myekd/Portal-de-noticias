@@ -98,7 +98,9 @@ section header {
   }
 }
 
-main > section,
+main > section {
+  padding-left: 32px;
+}
 main > aside {
   padding-inline: 32px;
 }
